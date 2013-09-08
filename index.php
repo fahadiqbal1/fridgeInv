@@ -25,7 +25,7 @@
 				<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 			</form>
 
-			<button class="btn btn-success" id="btnLogin">Sign Up / Log In</button>
+			<button class="btn btn-success" id="btnLogin" onclick="loadDiv()">Sign Up / Log In</button>
 			<div id="divLogin"></div>
 
 		</div> <!-- /container -->

@@ -9,8 +9,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378597998436" ignored="false" />
     <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378598307564" ignored="false" />
-    <file path="/index.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378601602266" ignored="false" />
-    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378601639124" ignored="false" />
+    <file path="/index.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378601943392" ignored="false" />
+    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378601991340" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="42" selection-start="948" selection-end="948" vertical-scroll-proportion="-17.653847">
+            <state line="33" column="7" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.64408726">
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="175" selection-end="175" vertical-scroll-proportion="0.13266444">
+            <state line="11" column="34" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -355,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="948" selection-end="948" vertical-scroll-proportion="-17.653847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
@@ -371,7 +364,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="175" selection-end="175" vertical-scroll-proportion="0.13266444">
+        <state line="11" column="34" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="7" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.64408726">
           <folding />
         </state>
       </provider>

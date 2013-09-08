@@ -4,6 +4,10 @@
 //	$('#divLogin').load('login.php');
 //});
 
-$('#btnLogin').click(function(){
-	console.log('btn clicked');
+$("#btnLogin").click(function(){
+	console.log("btn clicked");
 });
+
+function loadDiv() {
+	$("#divLogin").load("login.php");
+}
