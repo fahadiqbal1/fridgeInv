@@ -38,6 +38,7 @@ function formVal(name) {
 	$.ajax({
 		type: "POST",
 		url: "action/"+name+".php",
+		data: $("#formSignIn").serialize(),
 		success: function() {
 			alert('form submitted');
 			return false;
