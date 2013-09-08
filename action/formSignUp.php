@@ -22,9 +22,9 @@
 		return strlen($checkVar);
 	}
 	function sanitise($string){
-		$string = strip_tags($string); // Remove HTML
-		$string = htmlspecialchars($string); // Convert characters
-		$string = trim(rtrim(ltrim($string))); // Remove spaces
+//		$string = strip_tags($string); // Remove HTML
+//		$string = htmlspecialchars($string); // Convert characters
+//		$string = trim(rtrim(ltrim($string))); // Remove spaces
 		$string = mysqli_real_escape_string($con,$string); // Prevent SQL Injection
 		return $string;
 	}
