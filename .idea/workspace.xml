@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c451feba-7dad-4f9c-8dfe-e79c63354fe2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="fridgeInv.iws" />
@@ -33,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="11" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.6245695">
+            <state line="32" column="11" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-20.923077">
               <folding />
             </state>
           </provider>
@@ -51,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="4" column="3" selection-start="0" selection-end="107" vertical-scroll-proportion="0.07580825">
               <folding />
             </state>
           </provider>
@@ -350,16 +351,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+        <state line="32" column="11" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-20.923077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="11" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.6245695">
+        <state line="4" column="3" selection-start="0" selection-end="107" vertical-scroll-proportion="0.07580825">
           <folding />
         </state>
       </provider>
