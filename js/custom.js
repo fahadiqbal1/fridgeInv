@@ -52,6 +52,8 @@ function formVal(name) {
 function showLoginAlert(msg){
 	$("#alertLogin").html(msg);
 	$("#alertLogin").delay(3200).fadeOut(1000);
+	$("#alertLogin").html('');
+
 }
 
 
