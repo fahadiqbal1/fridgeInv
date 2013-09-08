@@ -1,9 +1,8 @@
 /** Copyright Fahad Iqbal 2013 */
 
-var href = location.href;
-var split = href.split("#");
-
 $(function() {
+	var href = location.href;
+	var split = href.split("#");
 	if(split[1] != null){
 		if(split[1]==""){
 			loadDiv('home');
@@ -19,21 +18,19 @@ $(function() {
 });
 
 function loadDiv(page) {
-	if(page != split[1]){
-		$("#divDisplay").html('<br/><div class="progress progress-striped active"><div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div>');
-		//$("#divDisplay").load(page+".php");
-		$(".progress-bar").animate({width: "100%"},1000);
+	$("#divDisplay").html('<br/><div class="progress progress-striped active"><div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div>');
+	//$("#divDisplay").load(page+".php");
+	$(".progress-bar").animate({width: "100%"},1000);
 
-		$("#divDisplay").delay(1500).queue(function(n){
-			$(this).load(page+".php", function(response, status, xhr){
-				if (status == "error") {
-					loadDiv('home');
-					console.log(xhr.status + " " + xhr.statusText);
-				}
-			});
-			n();
+	$("#divDisplay").delay(1500).queue(function(n){
+		$(this).load(page+".php", function(response, status, xhr){
+			if (status == "error") {
+				loadDiv('home');
+				console.log(xhr.status + " " + xhr.statusText);
+			}
 		});
-	}
+		n();
+	});
 }
 
 function formVal(name) {
