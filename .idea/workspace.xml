@@ -9,7 +9,7 @@
     <file path="/Dummy.txt" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378597998436" ignored="false" />
     <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378598307564" ignored="false" />
     <file path="/index.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378610262616" ignored="false" />
-    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378611808055" ignored="false" />
+    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378612058521" ignored="false" />
     <file path="/login.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378610376202" ignored="false" />
     <file path="/home.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378611070905" ignored="false" />
     <file path="/custom.css" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378611269657" ignored="false" />
@@ -67,9 +67,9 @@
       <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="63" selection-start="806" selection-end="806" vertical-scroll-proportion="0.53846157">
+            <state line="17" column="5" selection-start="240" selection-end="240" vertical-scroll-proportion="0.32692307">
               <folding>
-                <marker date="1378611814466" expanded="true" signature="478:487" placeholder="..." />
+                <marker date="1378612127794" expanded="true" signature="501:510" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -396,9 +396,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="63" selection-start="806" selection-end="806" vertical-scroll-proportion="0.53846157">
+        <state line="17" column="5" selection-start="240" selection-end="240" vertical-scroll-proportion="0.32692307">
           <folding>
-            <marker date="1378611814466" expanded="true" signature="478:487" placeholder="..." />
+            <marker date="1378612127794" expanded="true" signature="501:510" placeholder="..." />
           </folding>
         </state>
       </provider>
