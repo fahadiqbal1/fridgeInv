@@ -39,9 +39,8 @@ function formVal(name) {
 		type: "POST",
 		url: "action/"+name+".php",
 		data: $("#formSignIn").serialize(),
-		success: function() {
-			alert('form submitted');
-			return false;
+		success: function(data) {
+			alert(data);
 		}
 	});
 	return false;
