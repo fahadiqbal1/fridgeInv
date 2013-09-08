@@ -40,7 +40,7 @@ function formVal(name) {
 		success: function(data) {
 			$("#alertLogin").show(function(){
 				showLoginAlert(data);
-				if(data == "Sign In Successful"){
+				if(data == "success"){
 					window.location = 'action/signInVerification.php';
 				}
 			});

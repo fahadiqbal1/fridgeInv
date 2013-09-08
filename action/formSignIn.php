@@ -13,7 +13,7 @@ $output = '';
 		$output = "Password needs to be more than 8 characters";
 	}
 	else{
-		$output = "Sign In Successful";
+		$output = "success";
 	}
 
 echo $output;

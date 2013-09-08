@@ -85,7 +85,7 @@
 
 <script>
 
-	$('#formSignIn').submit(function(){
+	$('form').submit(function(){
 		formVal(this.id);
 		return false;
 	});
