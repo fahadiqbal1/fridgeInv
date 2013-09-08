@@ -25,7 +25,7 @@
 		$string = strip_tags($string); // Remove HTML
 		$string = htmlspecialchars($string); // Convert characters
 		$string = trim(rtrim(ltrim($string))); // Remove spaces
-		$string = mysql_real_escape_string($string); // Prevent SQL Injection
+		$string = mysqli_real_escape_string($string); // Prevent SQL Injection
 		return $string;
 	}
 
@@ -39,7 +39,8 @@
 		$pass = md5($pass);
 		$sql = "INSERT INTO `db_fi_learn`.`fridInv.tblUsers` (`userId` ,`userName` ,`password` ,`firstName` ,`lastName` ,`email` ,`createdDtTm`)
 				VALUES (NULL , '".$user."', '".$pass."', '".$fName."', '".$lName."', '".$email."',CURRENT_TIMESTAMP);";
-		mysqli_query($con,$sql) or die ($output = mysqli_error($con));
+		mysqli_query($con,$sql) or die ($output = mysqli_error());
+		$output = "User created.";
 	}
 
 
