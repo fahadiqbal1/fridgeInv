@@ -10,11 +10,14 @@ $(function() {
 		else{
 			loadDiv(split[1]);
 		}
-
 	}
 	else {
 		loadDiv('home');
 	}
+
+	setTimeout(function(){
+		$("#alertLogin").hide();
+	},1500);
 });
 
 function loadDiv(page) {
