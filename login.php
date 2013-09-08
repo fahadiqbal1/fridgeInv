@@ -9,13 +9,13 @@
 					<div class="control-group">
 						<label class="control-label" for="inputUsername">Username</label>
 						<div class="controls">
-							<input type="text" class="form-control" id="inputUsername" placeholder="E.g. ashwinhegde">
+							<input type="text" name="inputUsername" class="form-control" id="inputUsername" placeholder="E.g. ashwinhegde">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPassword">Password</label>
 						<div class="controls">
-							<input type="password" class="form-control" id="inputPassword" placeholder="Min. 8 Characters">
+							<input type="password" name="inputPassword" class="form-control" id="inputPassword" placeholder="Min. 8 Characters">
 						</div>
 					</div>
 					<div class="control-group">
