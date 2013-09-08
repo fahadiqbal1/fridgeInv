@@ -34,10 +34,6 @@
 							<button type="button" class="btn btn-default">Help</button>
 						</div>
 					</div>
-					<div class="alert alert-danger">
-						<button type="button" class="close" data-dismiss="alert">×</button>
-						<strong>Access Denied!</strong> Please provide valid authorization.
-					</div>
 				</form>
 			</div>
 		</div>
@@ -91,11 +87,6 @@
 							<button type="submit" class="btn btn-success">Sign Up</button>
 							<button type="button" class="btn btn-default">Help</button>
 						</div>
-					</div>
-					<div class="alert alert-info">
-						<button type="button" class="close" data-dismiss="alert">×</button>
-						<strong>Confirmation: </strong> A confirmation email has been sent to your email.<br>
-						Thank you for your registration.
 					</div>
 				</form>
 			</div>

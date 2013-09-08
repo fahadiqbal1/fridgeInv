@@ -9,7 +9,7 @@ function loadDiv(page) {
 	//$("#divDisplay").load(page+".php");
 	$(".progress-bar").animate({width: "100%"},1000);
 
-	$("#divDisplay").delay(2000).queue(function(n){
+	$("#divDisplay").delay(1500).queue(function(n){
 		$(this).load(page+".php");
 		n();
 	});
