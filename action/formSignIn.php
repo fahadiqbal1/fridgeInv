@@ -10,7 +10,7 @@ $output = '';
 
 	$pwdLen = strlen($pwd);
 	if($pwdLen < 8){
-		$output = "Password needs to be more than 8 characters";
+		$output = "Password needs to be at least 8 characters";
 	}
 	else{
 		$output = "success";
