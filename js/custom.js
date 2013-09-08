@@ -34,9 +34,7 @@ function loadDiv(page) {
 }
 
 function formVal(name) {
-	alert('submitting: ' + name);
-	$.post("action/signIn.php", $("#formSignIn").serialize());
-	return false;
+
 }
 
 

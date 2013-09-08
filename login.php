@@ -2,7 +2,7 @@
 	<div class="col-md-12">
 		<div class="col-md-6">
 			<div class="well well-sm">
-				<form class="form-horizontal" id="formSignIn">
+				<form class="form-horizontal" id="formSignIn" action="action/signIn.php">
 					<div class="heading">
 						<h4 class="form-heading">Sign In</h4>
 					</div>
