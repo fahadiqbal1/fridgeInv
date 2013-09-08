@@ -15,3 +15,5 @@ $output = '';
 	else{
 		$output = "signing in...";
 	}
+
+echo $output;
