@@ -1,6 +1,6 @@
-<div class="row-fluid">
-	<div class="span12">
-		<div class="span6">
+<div class="row">
+	<div class="col-md-12">
+		<div class="col-md-6">
 			<div class="area">
 				<form class="form-horizontal">
 					<div class="heading">
@@ -41,7 +41,7 @@
 				</form>
 			</div>
 		</div>
-		<div class="span6">
+		<div class="col-md-6">
 			<div class="area">
 				<form class="form-horizontal">
 					<div class="heading">
