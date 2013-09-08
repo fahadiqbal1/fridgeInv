@@ -14,6 +14,7 @@ $output = '';
 	}
 	else{
 		$output = "signing in...";
+		return "success";
 	}
 
 echo $output;
