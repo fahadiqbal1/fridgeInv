@@ -84,8 +84,18 @@
 </div>
 
 <script>
+	var errorInd = false;
+	var inputUsername = $("#inputUsername");
+	var inputPassword = $("#inputPassword");
+
 	$('#formSignIn').submit(function(){
-		formVal(this.id);
+		if(inputPassword.length < 8){
+			showLoginAlert('Password must be at least 8 characters');
+			errorInd = true;
+		}
+		if(!errorInd){
+			formVal(this.id);
+		}
 		return false;
 	});
 </script>

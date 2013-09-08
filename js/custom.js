@@ -39,12 +39,16 @@ function formVal(name) {
 		data: $("#"+name).serialize(),
 		success: function(data) {
 			$("#alertLogin").show(function(){
-				$("#alertLogin").html(data);
-				$("#alertLogin").delay(3200).fadeOut(1000);
+				showLoginAlert(data);
 			});
 		}
 	});
 	return false;
+}
+
+function showLoginAlert(msg){
+	$("#alertLogin").html(msg);
+	$("#alertLogin").delay(3200).fadeOut(1000);
 }
 
 
