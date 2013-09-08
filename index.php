@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<button class="btn btn-primary" id="btnHome" onclick="loadDiv('home')"><span class="glyphicon glyphicon-arrow-left"></span> Go back</button>
+			<button class="btn btn-primary" id="btnHome" onclick="loadDiv('home')"><span class="glyphicon glyphicon-home"></span> Home</button>
 			<button class="btn btn-success" id="btnLogin" onclick="loadDiv('login')">Sign Up / Log In</button>
 			<div id="divDisplay"></div>
 
