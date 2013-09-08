@@ -215,5 +215,5 @@ pip-log.txt
 .mr.developer.cfg
 
 #PHPStorm
-*/.idea/workspace.xml
-*/.idea/tasks.xml
+*.idea/workspace.xml
+*.idea/tasks.xml
