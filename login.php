@@ -84,6 +84,7 @@
 
 <script>
 	$('#formSignIn').submit(function(){
-		formVal(this);
+		formVal(this.elem);
+		return false;
 	});
 </script>
