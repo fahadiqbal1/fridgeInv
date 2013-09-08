@@ -43,7 +43,7 @@ function formVal(name) {
 			});
 		}
 	});
-	return false;
+	return true;
 }
 
 function showLoginAlert(msg){
