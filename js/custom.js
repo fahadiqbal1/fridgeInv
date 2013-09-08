@@ -15,12 +15,12 @@ function loadDiv(page) {
 	});
 }
 
-$('#formSignIn').submit(function(){
+$('form#formSignIn.form-horizontal').submit(function(){
 	alert('signing in...');
 	return true;
 });
 
-$('#formSignUp').submit(function(){
+$('form#formSignUp.form-horizontal').submit(function(){
 	alert('signing up...');
 	return false;
 });
