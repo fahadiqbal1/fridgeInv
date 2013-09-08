@@ -17,16 +17,9 @@
 	</head>
 	<body>
 		<div class="container">
-
-			<form class="form-signin">
-				<h2 class="form-signin-heading">Please sign in</h2>
-				<input type="text" class="form-control" placeholder="Email address" autofocus>
-				<input type="password" class="form-control" placeholder="Password">
-				<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-			</form>
-
-			<button class="btn btn-success" id="btnLogin" onclick="loadDiv()">Sign Up / Log In</button>
-			<div id="divLogin"></div>
+			<button class="btn btn-primary" id="btnHome" onclick="loadDiv('home')"><span class="glyphicon glyphicon-arrow-left"></span> Go back</button>
+			<button class="btn btn-success" id="btnLogin" onclick="loadDiv('login')">Sign Up / Log In</button>
+			<div id="divDisplay"></div>
 
 		</div> <!-- /container -->
 
