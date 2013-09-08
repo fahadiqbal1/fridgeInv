@@ -5,7 +5,7 @@ $(function() {
 });
 
 function loadDiv(page) {
-	$("#divDisplay").html('<div class="progress progress-striped active"><div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div></div>');
+	$("#divDisplay").html('<div class="progress progress-striped active"><div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div></div>');
 	//$("#divDisplay").load(page+".php");
 
 
