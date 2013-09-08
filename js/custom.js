@@ -40,6 +40,9 @@ function formVal(name) {
 		success: function(data) {
 			$("#alertLogin").show(function(){
 				showLoginAlert(data);
+				if(data == "Sign In Successful"){
+					window.location = 'action/signInVerification.php';
+				}
 			});
 		}
 	});

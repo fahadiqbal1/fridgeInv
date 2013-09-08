@@ -13,8 +13,7 @@ $output = '';
 		$output = "Password needs to be more than 8 characters";
 	}
 	else{
-		$output = "signing in...";
-		header("location:http://www.google.com");
+		$output = "Sign In Successful";
 	}
 
 echo $output;
