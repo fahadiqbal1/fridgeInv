@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c451feba-7dad-4f9c-8dfe-e79c63354fe2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
     </list>
     <ignored path="fridgeInv.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378597998436" ignored="false" />
     <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378598307564" ignored="false" />
     <file path="/index.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378610262616" ignored="false" />
-    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378610631306" ignored="false" />
+    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378611545976" ignored="false" />
     <file path="/login.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378610376202" ignored="false" />
     <file path="/home.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378611070905" ignored="false" />
     <file path="/custom.css" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378611269657" ignored="false" />
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="7" selection-start="3123" selection-end="3123" vertical-scroll-proportion="1.1951779">
+            <state line="34" column="24" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-5.3846154">
               <folding />
             </state>
           </provider>
@@ -64,12 +64,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="21" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.40384614">
               <folding>
-                <marker date="1378610640098" expanded="true" signature="420:429" placeholder="..." />
+                <marker date="1378611550562" expanded="true" signature="420:429" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -105,10 +105,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/jquery.js" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
       </list>
     </option>
   </component>
@@ -387,19 +387,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1378610640098" expanded="true" signature="420:429" placeholder="..." />
-          </folding>
+        <state line="34" column="24" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-5.3846154">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="7" selection-start="3123" selection-end="3123" vertical-scroll-proportion="1.1951779">
-          <folding />
+        <state line="21" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.40384614">
+          <folding>
+            <marker date="1378611550562" expanded="true" signature="420:429" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
