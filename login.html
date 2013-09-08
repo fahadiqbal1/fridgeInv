@@ -13,7 +13,7 @@
 							<input type="text" name="inputUsername" class="form-control" id="inputUsername" placeholder="E.g. ashwinhegde" required>
 						</div>
 					</div>
-					<div class="control-group has-error">
+					<div class="control-group">
 						<label class="control-label" for="inputPassword">Password</label>
 						<div class="controls">
 							<input type="password" name="inputPassword" class="form-control" id="inputPassword" placeholder="Min. 8 Characters" required>
@@ -22,9 +22,10 @@
 					<div class="control-group">
 						<div class="controls">
 							<label class="checkbox">
-								<input type="checkbox"> Keep me signed in
+								<input type="checkbox" name="staySignedIn"> Keep me signed in
 								<a href="#" class="btn btn-link">Forgot my password</a>
 							</label>
+							<br/>
 							<button type="submit" class="btn btn-success" id="btnSignIn">Sign In</button>
 							<button type="button" class="btn btn-default">Help</button>
 						</div>
@@ -73,6 +74,7 @@
 							<label class="checkbox">
 								<input type="checkbox" name="tos" required> I agree all your <a href="#">Terms of Services</a>
 							</label>
+							<br/>
 							<button type="submit" class="btn btn-success">Sign Up</button>
 							<button type="button" class="btn btn-default">Help</button>
 						</div>
