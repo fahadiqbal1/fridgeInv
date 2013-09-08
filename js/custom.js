@@ -4,7 +4,13 @@ $(function() {
 	var href = location.href;
 	var split = href.split("#");
 	if(split[1] != null){
-		loadDiv(split[1]);
+		if(split[1]==""){
+			loadDiv('home');
+		}
+		else{
+			loadDiv(split[1]);
+		}
+
 	}
 	else {
 		loadDiv('home');
@@ -20,6 +26,7 @@ function loadDiv(page) {
 		$(this).load(page+".php", function(response, status, xhr){
 			if (status == "error") {
 				loadDiv('home');
+				console.log(xhr.status + " " + xhr.statusText);
 			}
 		});
 		n();
