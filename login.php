@@ -93,7 +93,7 @@
 			showLoginAlert('Password must be at least 8 characters');
 			errorInd = true;
 		}
-		if(!errorInd){
+		if(errorInd==false){
 			formVal(this.id);
 		}
 		return false;
