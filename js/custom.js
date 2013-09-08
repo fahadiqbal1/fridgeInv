@@ -3,3 +3,7 @@
 $('#btnLogin').click(function(){
 	$('#divLogin').load('login.php');
 });
+
+$('#btnLogin').click(function(){
+	$('#divLogin').load('')
+})

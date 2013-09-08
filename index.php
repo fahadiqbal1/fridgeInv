@@ -7,7 +7,7 @@
 		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
 		<link href="css/custom.css" rel="stylesheet" media="screen">
 
-		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/custom.js"></script>
 		<!--[if lt IE 9]>
@@ -25,7 +25,7 @@
 				<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 			</form>
 
-			<button id="btnLogin">Sign Up / Log In</button>
+			<button class="btn btn-success" id="btnLogin">Sign Up / Log In</button>
 			<div id="divLogin"></div>
 
 		</div> <!-- /container -->
