@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-md-12">
-		<div class="alert alert-success" id="alertLogin">...</div>
+		<div class="alert alert-success" id="alertLogin" style="display:none;">...</div>
 		<div class="col-md-6">
 			<div class="well well-sm">
 				<form class="form-horizontal" id="formSignIn" action="action/formSignIn.php" method="post">
