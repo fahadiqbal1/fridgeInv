@@ -34,7 +34,8 @@ function loadDiv(page) {
 }
 
 function formVal(name) {
-
+	alert('submitting: ' + name);
+	return false;
 }
 
 
