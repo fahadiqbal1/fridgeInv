@@ -2,6 +2,16 @@
 
 $(function() {
 	loadDiv('home');
+
+	$('#formSignIn').submit(function(){
+		alert('signing in...');
+		return false;
+	});
+
+	$('#formSignUp').submit(function(){
+		alert('signing up...');
+		return false;
+	});
 });
 
 function loadDiv(page) {
@@ -14,13 +24,3 @@ function loadDiv(page) {
 		n();
 	});
 }
-
-$('#formSignIn').submit(function(){
-	alert('signing in...');
-	return false;
-})
-
-$('#formSignUp').submit(function(){
-	alert('signing up...');
-	return false;
-})
