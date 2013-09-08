@@ -1,7 +1,14 @@
 /** Copyright Fahad Iqbal 2013 */
 
 $(function() {
-	loadDiv('home');
+	var href = location.href;
+	var split = href.split("#");
+	if(split[1] != null){
+		loadDiv(split[1]);
+	}
+	else {
+		loadDiv('home');
+	}
 });
 
 function loadDiv(page) {
