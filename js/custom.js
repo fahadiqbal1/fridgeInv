@@ -33,17 +33,15 @@ function loadDiv(page) {
 }
 
 function formVal(name) {
-	$("#alertLogin").show(function(){
-		$("#alertLogin").html('processing form');
-		$("#alertLogin").delay(3200).fadeOut(300);
-	});
-
 	$.ajax({
 		type: "POST",
 		url: "action/"+name+".php",
 		data: $("#"+name).serialize(),
 		success: function(data) {
-			alert(data);
+			$("#alertLogin").show(function(){
+				$("#alertLogin").html(data);
+				$("#alertLogin").delay(3200).fadeOut(1000);
+			});
 		}
 	});
 	return false;
