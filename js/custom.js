@@ -15,6 +15,8 @@ $(function() {
 	else {
 		loadDiv('home');
 	}
+
+	$(".alert").hide();
 });
 
 function loadDiv(page) {
@@ -34,7 +36,7 @@ function loadDiv(page) {
 }
 
 function formVal(name) {
-	alert('submitting: ' + name);
+	$("#alertLogin").show().html('processing form');
 	$.ajax({
 		type: "POST",
 		url: "action/"+name+".php",
