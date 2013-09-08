@@ -81,3 +81,9 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	$('#formSignIn').submit(function(){
+		formVal('signIn');
+	});
+</script>

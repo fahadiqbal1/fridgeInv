@@ -31,11 +31,11 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#" onclick="loadDiv('home')"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					<li><a href="#home" onclick="loadDiv('home')"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 <!--					<li><a href="#">Link</a></li>-->
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#" onclick="loadDiv('login')">Sign Up / Log In</a></li>
+					<li><a href="#login" onclick="loadDiv('login')">Sign Up / Log In</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</nav>

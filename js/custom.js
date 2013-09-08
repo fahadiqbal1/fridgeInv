@@ -15,12 +15,6 @@ function loadDiv(page) {
 	});
 }
 
-$('#btnSignIn').click(function(){
-	alert('signing in...');
-	return false;
-});
-
-$('#formSignUp').submit(function(){
-	alert('signing up...');
-	return false;
-});
+function formVal(name) {
+	alert('submitting: ' + name);
+}
