@@ -12,7 +12,7 @@
     <file path="/Dummy.txt" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378597998436" ignored="false" />
     <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378598307564" ignored="false" />
     <file path="/index.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605241293" ignored="false" />
-    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605218522" ignored="false" />
+    <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605422112" ignored="false" />
     <file path="/login.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378602504235" ignored="false" />
     <file path="/home.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378604986984" ignored="false" />
     <file path="/custom.css" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605105305" ignored="false" />
@@ -40,10 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="120" selection-start="695" selection-end="695" vertical-scroll-proportion="0.3708381">
+            <state line="21" column="39" selection-start="851" selection-end="851" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
@@ -58,11 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="2" column="14" selection-start="49" selection-end="49" vertical-scroll-proportion="0.03846154">
+              <folding>
+                <marker date="1378605433491" expanded="true" signature="278:288" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +110,8 @@
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
       </list>
     </option>
   </component>
@@ -381,9 +383,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+        <state line="21" column="39" selection-start="851" selection-end="851" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
@@ -395,10 +397,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="120" selection-start="695" selection-end="695" vertical-scroll-proportion="0.3708381">
-          <folding />
+        <state line="2" column="14" selection-start="49" selection-end="49" vertical-scroll-proportion="0.03846154">
+          <folding>
+            <marker date="1378605433491" expanded="true" signature="278:288" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

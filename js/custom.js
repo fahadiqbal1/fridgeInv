@@ -5,6 +5,6 @@ $(function() {
 });
 
 function loadDiv(page) {
-	$("#divDisplay").html('');
+	$("#divDisplay").html('<div class="progress progress-striped active"><div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div></div>');
 	$("#divDisplay").load(page+".php");
 }
