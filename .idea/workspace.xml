@@ -61,9 +61,9 @@
       <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="127" selection-end="127" vertical-scroll-proportion="0.13461539">
+            <state line="11" column="28" selection-start="426" selection-end="426" vertical-scroll-proportion="0.21153846">
               <folding>
-                <marker date="1378606959475" expanded="true" signature="283:292" placeholder="..." />
+                <marker date="1378606997159" expanded="true" signature="283:292" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -399,9 +399,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="127" selection-end="127" vertical-scroll-proportion="0.13461539">
+        <state line="11" column="28" selection-start="426" selection-end="426" vertical-scroll-proportion="0.21153846">
           <folding>
-            <marker date="1378606959475" expanded="true" signature="283:292" placeholder="..." />
+            <marker date="1378606997159" expanded="true" signature="283:292" placeholder="..." />
           </folding>
         </state>
       </provider>
