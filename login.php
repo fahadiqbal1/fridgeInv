@@ -91,11 +91,10 @@
 	$('#formSignIn').submit(function(){
 		if(inputPassword.length < 8){
 			showLoginAlert('Password must be at least 8 characters');
-			errorInd = true;
 		}
-		if(errorInd==false){
+		else{
 			formVal(this.id);
+			return false;
 		}
-		return false;
 	});
 </script>
