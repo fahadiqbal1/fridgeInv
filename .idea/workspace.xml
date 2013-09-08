@@ -7,7 +7,7 @@
     <ignored path="fridgeInv.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378597998436" ignored="false" />
-    <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378597929852" ignored="false" />
+    <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378598307564" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,16 +224,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="153" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0389016">
+        <state line="7" column="7" selection-start="68" selection-end="68" vertical-scroll-proportion="0.1403302">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="68" selection-end="68" vertical-scroll-proportion="0.1403302">
+        <state line="8" column="17" selection-start="275" selection-end="275" vertical-scroll-proportion="0.1556064">
           <folding />
         </state>
       </provider>
