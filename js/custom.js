@@ -35,6 +35,14 @@ function loadDiv(page) {
 
 function formVal(name) {
 	alert('submitting: ' + name);
+	$.ajax({
+		type: "POST",
+		url: "action/signIn.php",
+		data: $("#formSignIn"),
+		success: function(data) {
+			alert(data);
+		}
+	});
 	return false;
 }
 
