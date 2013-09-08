@@ -12,7 +12,7 @@
 							<input type="text" name="inputUsername" class="form-control" id="inputUsername" placeholder="E.g. ashwinhegde" required>
 						</div>
 					</div>
-					<div class="control-group">
+					<div class="control-group has-error">
 						<label class="control-label" for="inputPassword">Password</label>
 						<div class="controls">
 							<input type="password" name="inputPassword" class="form-control" id="inputPassword" placeholder="Min. 8 Characters" required>
