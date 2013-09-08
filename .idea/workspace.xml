@@ -13,7 +13,7 @@
     <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378598307564" ignored="false" />
     <file path="/index.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605241293" ignored="false" />
     <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378606955930" ignored="false" />
-    <file path="/login.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378607390107" ignored="false" />
+    <file path="/login.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378607495489" ignored="false" />
     <file path="/home.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378604986984" ignored="false" />
     <file path="/custom.css" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605105305" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="31" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.5074627">
+            <state line="3" column="29" selection-start="88" selection-end="88" vertical-scroll-proportion="0.058553386">
               <folding />
             </state>
           </provider>
@@ -401,7 +401,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="31" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.5074627">
+        <state line="3" column="29" selection-start="88" selection-end="88" vertical-scroll-proportion="0.058553386">
           <folding />
         </state>
       </provider>
