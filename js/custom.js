@@ -5,7 +5,7 @@ $(function() {
 });
 
 function loadDiv(page) {
-	$("#divDisplay").html('<br/><div class="progress progress-striped active"><div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div>');
+	$("#divDisplay").html('<br/><div class="progress progress-striped active"><div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div>');
 	//$("#divDisplay").load(page+".php");
 	$(".progress-bar").animate({width: "100%"},1000);
 
@@ -14,3 +14,13 @@ function loadDiv(page) {
 		n();
 	});
 }
+
+$('#formSignIn').submit(function(){
+	alert('signing in...');
+	return false;
+})
+
+$('#formSignUp').submit(function(){
+	alert('signing up...');
+	return false;
+})

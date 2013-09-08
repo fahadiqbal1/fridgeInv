@@ -2,15 +2,9 @@
 	<div class="col-md-12">
 		<div class="col-md-6">
 			<div class="well well-sm">
-				<form class="form-horizontal">
+				<form class="form-horizontal" id="formSignIn">
 					<div class="heading">
 						<h4 class="form-heading">Sign In</h4>
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="inputCompanyName">Company Name</label>
-						<div class="controls">
-							<input type="text" class="form-control" id="inputCompanyName" placeholder="E.g. Some Software Pvt. Ltd.">
-						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputUsername">Username</label>
@@ -39,15 +33,9 @@
 		</div>
 		<div class="col-md-6">
 			<div class="well well-sm">
-				<form class="form-horizontal">
+				<form class="form-horizontal" id="formSignUp">
 					<div class="heading">
 						<h4 class="form-heading">Sign Up</h4>
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="inputCompanyName">Company Name</label>
-						<div class="controls">
-							<input type="text" class="form-control" id="inputCompanyName" placeholder="E.g. Some Software Pvt. Ltd.">
-						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputFirst">First Name</label>
