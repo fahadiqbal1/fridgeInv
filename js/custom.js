@@ -22,7 +22,7 @@ function loadDiv(page) {
 	$(".progress-bar").animate({width: "100%"},1000);
 
 	$("#divDisplay").delay(1500).queue(function(n){
-		$(this).load(page+".php", function(response, status, xhr){
+		$(this).load(page+".html", function(response, status, xhr){
 			if (status == "error") {
 				loadDiv('home');
 				console.log(xhr.status + " " + xhr.statusText);
