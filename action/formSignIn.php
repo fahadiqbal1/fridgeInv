@@ -14,7 +14,7 @@ $output = '';
 	}
 	else{
 		$output = "signing in...";
-		return "success";
+		header("location:google.com");
 	}
 
 echo $output;
