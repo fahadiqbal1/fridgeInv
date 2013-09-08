@@ -12,7 +12,7 @@ function loadDiv(page) {
 		console.log(num);
 	}, 100);
 
-	$("#divDisplay").html('<div class="progress progress-striped active"><div class="progress-bar"  role="progressbar" aria-valuenow="'+num+'" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div></div>');
+	$("#divDisplay").html('<div class="progress progress-striped active"><div class="progress-bar"  role="progressbar" aria-valuenow="'+num+'" aria-valuemin="0" aria-valuemax="100" style="width: '+num+'%"></div></div>');
 
 	$("#divDisplay").delay(1000).queue(function(n){
 		$(this).load(page+".php");
