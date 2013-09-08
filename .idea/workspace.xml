@@ -13,7 +13,7 @@
     <file path="/README.md" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378598307564" ignored="false" />
     <file path="/index.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605241293" ignored="false" />
     <file path="/custom.js" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378606955930" ignored="false" />
-    <file path="/login.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378602504235" ignored="false" />
+    <file path="/login.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378607390107" ignored="false" />
     <file path="/home.php" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378604986984" ignored="false" />
     <file path="/custom.css" changelist="c451feba-7dad-4f9c-8dfe-e79c63354fe2" time="1378605105305" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,19 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="48" selection-start="3711" selection-end="3711" vertical-scroll-proportion="-61.46154">
+            <state line="44" column="31" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.5074627">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="426" selection-end="426" vertical-scroll-proportion="0.21153846">
+            <state line="11" column="28" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1378606997159" expanded="true" signature="283:292" placeholder="..." />
               </folding>
@@ -107,11 +107,11 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/jquery.js" />
-        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/login.php" />
       </list>
     </option>
   </component>
@@ -390,19 +390,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="48" selection-start="3711" selection-end="3711" vertical-scroll-proportion="-61.46154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="426" selection-end="426" vertical-scroll-proportion="0.21153846">
+        <state line="11" column="28" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1378606997159" expanded="true" signature="283:292" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="31" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.5074627">
+          <folding />
         </state>
       </provider>
     </entry>
