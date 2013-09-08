@@ -41,31 +41,31 @@
 					<div class="control-group">
 						<label class="control-label" for="inputFirst">First Name</label>
 						<div class="controls">
-							<input type="text" class="form-control" id="inputFirst" placeholder="E.g. Ashwin">
+							<input type="text" class="form-control" name="inputFirst" id="inputFirst" placeholder="E.g. Ashwin">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputLast">Last Name</label>
 						<div class="controls">
-							<input type="text" class="form-control" id="inputLast" placeholder="E.g. Hegde">
+							<input type="text" class="form-control" name="inputLast" id="inputLast" placeholder="E.g. Hegde">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputEmail">Email</label>
 						<div class="controls">
-							<input type="text" class="form-control" id="inputEmail" placeholder="E.g. ashwinh@cybage.com">
+							<input type="text" class="form-control" name="inputEmail" id="inputEmail" placeholder="E.g. ashwinh@cybage.com">
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputUser">Username</label>
 						<div class="controls">
-							<input type="text" class="form-control" id="inputUser" placeholder="E.g. ashwinhegde">
+							<input type="text" class="form-control" name="inputUser" id="inputUser" placeholder="E.g. ashwinhegde">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputPassword">Password</label>
+						<label class="control-label" for="inputPass">Password</label>
 						<div class="controls">
-							<input type="password" class="form-control" id="inputPassword" placeholder="Min. 8 Characters">
+							<input type="password" class="form-control" name="inputPassw" id="inputPass" placeholder="Min. 8 Characters">
 						</div>
 					</div>
 					<div class="control-group">
