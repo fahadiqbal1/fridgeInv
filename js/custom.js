@@ -35,4 +35,15 @@ function loadDiv(page) {
 
 function formVal(name) {
 	alert('submitting: ' + name);
+	$.ajax({
+		type: "POST",
+		url: "action/"+name+".php",
+		data: datastring,
+		success: function() {
+			alert('form submitted');
+		}
+	});
+	return false;
 }
+
+
