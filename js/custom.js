@@ -38,7 +38,6 @@ function formVal(name) {
 	$.ajax({
 		type: "POST",
 		url: "action/"+name+".php",
-		data: datastring,
 		success: function() {
 			alert('form submitted');
 		}
