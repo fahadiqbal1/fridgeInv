@@ -5,5 +5,5 @@
 //});
 
 $('#btnLogin').click(function(){
-	console.log('btn clicked')
-})
+	console.log('btn clicked');
+});
