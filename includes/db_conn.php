@@ -2,7 +2,7 @@
 
 include('config.php');
 
-$con=mysqli_connect($bHost,$dbUsername,$dbPassword,$dbName);
+$con=mysqli_connect($dbHost,$dbUsername,$dbPassword,$dbName);
 
 // Check connection
 if (mysqli_connect_errno($con))
