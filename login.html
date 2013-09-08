@@ -85,6 +85,11 @@
 </div>
 
 <script>
+	$("#inputPassword").keypress(function(){
+		var inputPassword = $(this).val();
+		console.log(inputPassword);
+	})
+
 	$('form').submit(function(){
 		formVal(this.id);
 		return false;
