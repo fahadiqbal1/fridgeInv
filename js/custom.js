@@ -40,6 +40,7 @@ function formVal(name) {
 		url: "action/"+name+".php",
 		success: function() {
 			alert('form submitted');
+			return false;
 		}
 	});
 	return false;
