@@ -41,37 +41,37 @@
 					<div class="control-group">
 						<label class="control-label" for="inputFirst">First Name</label>
 						<div class="controls">
-							<input type="text" class="form-control" name="inputFirst" id="inputFirst" placeholder="E.g. Ashwin">
+							<input type="text" class="form-control" name="inputFirst" id="inputFirst" placeholder="E.g. Ashwin" required>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputLast">Last Name</label>
 						<div class="controls">
-							<input type="text" class="form-control" name="inputLast" id="inputLast" placeholder="E.g. Hegde">
+							<input type="text" class="form-control" name="inputLast" id="inputLast" placeholder="E.g. Hegde" required>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputEmail">Email</label>
 						<div class="controls">
-							<input type="text" class="form-control" name="inputEmail" id="inputEmail" placeholder="E.g. ashwinh@cybage.com">
+							<input type="text" class="form-control" name="inputEmail" id="inputEmail" placeholder="E.g. ashwinh@cybage.com" required>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputUser">Username</label>
 						<div class="controls">
-							<input type="text" class="form-control" name="inputUser" id="inputUser" placeholder="E.g. ashwinhegde">
+							<input type="text" class="form-control" name="inputUser" id="inputUser" placeholder="E.g. ashwinhegde" required>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label" for="inputPass">Password</label>
 						<div class="controls">
-							<input type="password" class="form-control" name="inputPassw" id="inputPass" placeholder="Min. 8 Characters">
+							<input type="password" class="form-control" name="inputPass" id="inputPass" placeholder="Min. 8 Characters" required>
 						</div>
 					</div>
 					<div class="control-group">
 						<div class="controls">
 							<label class="checkbox">
-								<input type="checkbox"> I agree all your <a href="#">Terms of Services</a>
+								<input type="checkbox" required> I agree all your <a href="#">Terms of Services</a>
 							</label>
 							<button type="submit" class="btn btn-success">Sign Up</button>
 							<button type="button" class="btn btn-default">Help</button>
