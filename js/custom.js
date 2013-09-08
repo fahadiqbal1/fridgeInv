@@ -10,6 +10,7 @@ function loadDiv(page) {
 	setTimeout(function(){
 		num + 10;
 		$("#divDisplay").html('<div class="progress progress-striped active"><div class="progress-bar"  role="progressbar" aria-valuenow="'+num+'" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div></div>');
+		console.log(num);
 	}, 100);
 
 	$("#divDisplay").delay(1000).queue(function(n){
