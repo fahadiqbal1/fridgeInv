@@ -15,9 +15,9 @@ function loadDiv(page) {
 	});
 }
 
-$('#formSignIn').submit(function(){
+$('#btnSignIn').click(function(){
 	alert('signing in...');
-	return true;
+	return false;
 });
 
 $('#formSignUp').submit(function(){

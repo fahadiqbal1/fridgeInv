@@ -24,7 +24,7 @@
 								<input type="checkbox"> Keep me signed in
 								<a href="#" class="btn btn-link">Forgot my password</a>
 							</label>
-							<button type="submit" class="btn btn-success">Sign In</button>
+							<button type="submit" class="btn btn-success" id="btnSignIn">Sign In</button>
 							<button type="button" class="btn btn-default">Help</button>
 						</div>
 					</div>
