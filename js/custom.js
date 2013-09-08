@@ -35,14 +35,7 @@ function loadDiv(page) {
 
 function formVal(name) {
 	alert('submitting: ' + name);
-	$.ajax({
-		type: "POST",
-		url: "action/signIn.php",
-		data: $("#formSignIn").serialize(),
-		success: function(data) {
-			alert(data);
-		}
-	});
+	$.post("action/signIn.php", $("#formSignIn").serialize());
 	return false;
 }
 
