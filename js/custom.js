@@ -35,7 +35,7 @@ function loadDiv(page) {
 }
 
 function formVal(name) {
-	$("#alertLogin").show().html('processing form');
+	$("#alertLogin").html('processing form');
 	$.ajax({
 		type: "POST",
 		url: "action/"+name+".php",
