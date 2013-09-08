@@ -14,10 +14,6 @@ $(function() {
 	else {
 		loadDiv('home');
 	}
-
-	setTimeout(function(){
-		$("#alertLogin").hide();
-	},1500);
 });
 
 function loadDiv(page) {
@@ -37,8 +33,11 @@ function loadDiv(page) {
 }
 
 function formVal(name) {
-	$("#alertLogin").show();
-	$("#alertLogin").html('processing form');
+	$("#alertLogin").show(function(){
+		$("#alertLogin").html('processing form');
+		$("#alertLogin").delay(3200).fadeOut(300);
+	});
+
 	$.ajax({
 		type: "POST",
 		url: "action/"+name+".php",
